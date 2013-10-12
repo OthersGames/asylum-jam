@@ -1,0 +1,10 @@
+2013-10-11 19:08:09-0700 [-] Log opened.
+2013-10-11 19:08:09-0700 [-] twistd 13.1.0 (C:\Python27\python.exe 2.7.5) starting up.
+2013-10-11 19:08:09-0700 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2013-10-11 19:08:09-0700 [-] ServerFactory starting on 4000
+2013-10-11 19:08:09-0700 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x031012B0>
+2013-10-11 19:08:09-0700 [-] Site starting on 8000
+2013-10-11 19:08:09-0700 [-] Starting factory <twisted.web.server.Site instance at 0x031449E0>
+2013-10-11 19:08:09-0700 [-] Starting factory <src.server.amp.AmpClientFactory instance at 0x03082C38>
+2013-10-11 19:08:09-0700 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 51781) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2013-10-11 19:08:19-0700 [HTTPChannelWithXForwardedFor,0,127.0.0.1] C:\Python27\lib\site-packages\django\conf\urls\defaults.py:3: exceptions.DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
