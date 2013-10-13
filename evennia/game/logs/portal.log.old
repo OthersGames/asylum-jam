@@ -1,12 +1,10 @@
-2013-10-11 19:05:14-0700 [-] Log opened.
-2013-10-11 19:05:14-0700 [-] twistd 13.1.0 (C:\Python27\python.exe 2.7.5) starting up.
-2013-10-11 19:05:14-0700 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
-2013-10-11 19:05:14-0700 [-] ServerFactory starting on 4000
-2013-10-11 19:05:14-0700 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x0345B1E8>
-2013-10-11 19:05:14-0700 [-] Site starting on 8000
-2013-10-11 19:05:14-0700 [-] Starting factory <twisted.web.server.Site instance at 0x031B2BC0>
-2013-10-11 19:05:14-0700 [-] Starting factory <src.server.amp.AmpClientFactory instance at 0x0311B3C8>
-2013-10-11 19:05:15-0700 [Uninitialized] <twisted.internet.tcp.Connector instance at 0x031B8FD0> will retry in 1 seconds
-2013-10-11 19:05:15-0700 [Uninitialized] Stopping factory <src.server.amp.AmpClientFactory instance at 0x0311B3C8>
-2013-10-11 19:05:17-0700 [-] Starting factory <src.server.amp.AmpClientFactory instance at 0x0311B3C8>
-2013-10-11 19:05:17-0700 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 51722) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2013-10-13 15:01:00-0700 [-] Log opened.
+2013-10-13 15:01:00-0700 [-] twistd 13.1.0 (C:\Python27\python.exe 2.7.5) starting up.
+2013-10-13 15:01:00-0700 [-] reactor class: twisted.internet.selectreactor.SelectReactor.
+2013-10-13 15:01:00-0700 [-] ServerFactory starting on 4000
+2013-10-13 15:01:00-0700 [-] Starting factory <twisted.internet.protocol.ServerFactory instance at 0x0000000003AAF588>
+2013-10-13 15:01:00-0700 [-] Site starting on 8000
+2013-10-13 15:01:00-0700 [-] Starting factory <twisted.web.server.Site instance at 0x0000000003B145C8>
+2013-10-13 15:01:00-0700 [-] Starting factory <src.server.amp.AmpClientFactory instance at 0x0000000003AAF2C8>
+2013-10-13 15:01:00-0700 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 54546) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2013-10-13 15:01:26-0700 [HTTPChannelWithXForwardedFor,0,127.0.0.1] C:\Python27\lib\site-packages\django\conf\urls\defaults.py:3: exceptions.DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
